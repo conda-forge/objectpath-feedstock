@@ -10,7 +10,7 @@ source:
   sha256: 461263136c79292e42431fbb85cdcaac4c6a256f6b1aa5b3ae9316e4965ad819
 
 build:
-  number: 5
+  number: 6
   entry_points:
     - objectpath = objectpath.shell:main
   script: "{{ PYTHON }} -m pip install . -vv "
